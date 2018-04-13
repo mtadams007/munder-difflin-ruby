@@ -1,0 +1,292 @@
+body {
+  background-color: #373F51;
+  font-family: helvetica;
+}
+a {
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  padding: 15px;
+}
+h1 {
+  padding-left: 15px;
+}
+
+/* Subsection class that applies to each section */
+.subSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Top stuff */
+header {
+  background-color: #14281D;
+  /* background-color: #373F51; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+#logo {
+  width: 30%;
+  height: 30%;
+}
+
+/* About us */
+#aboutUs {
+  background-color: #6E633D;
+}
+
+/* Environmental section */
+#environment {
+  background-color: #355834;
+}
+
+/* TreeKillers are the block that covers up the tree I'm killing */
+#treeKiller1 {
+  background-color: #355834;
+  width:150px;
+  height:150px;
+  margin-top: -585px;
+  margin-bottom: 500px;
+  position: relative;
+  opacity: 0;
+}
+#treeKiller2 {
+  background-color: #355834;
+  width:150px;
+  height:150px;
+  margin-top: -648px;
+  margin-bottom: 500px;
+  margin-left: 350px;
+  position: relative;
+  opacity: 0;
+}
+#treeKiller3 {
+  background-color: #355834;
+  width:150px;
+  height:150px;
+  margin-top: -302px;
+  margin-bottom: 150px;
+  position: relative;
+  opacity: 0;
+}
+#treeKiller4 {
+  background-color: #355834;
+  width:150px;
+  height:150px;
+  margin-top: -300px;
+  margin-bottom:150px;
+  margin-left: 350px;
+  position: relative;
+  opacity: 0;
+}
+#treeKiller5 {
+  background-color: #355834;
+  width:200px;
+  height:200px;
+  margin-top: -500px;
+  margin-bottom:300px;
+  margin-left: 125px;
+  position: relative;
+  opacity: 0;
+}
+/* h2 applied only in this section */
+h2 {
+  font-size: 40px;
+  padding: 50px;
+}
+
+/* Product section classes and ids */
+#products {
+  background-color: #6E633D;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  height 600px;
+}
+#prod {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.productOne {
+  position: relative;
+}
+.productTwo {
+  position: relative;
+}
+.productThree {
+  position: relative;
+}
+
+/* classes for sliding that get added with DOM */
+.comeFromRight {
+  animation: slideFromRight 1s forwards;
+}
+.comeFromLeft {
+  animation: slideFromLeft 1s forwards;
+}
+.gameButton {
+  background-color: red;
+  width: 100px;
+  border-radius: 30%;
+  text-align: center;
+  display: inline-block;
+
+}
+
+/* TreeKillers are the block that covers up the tree I'm killing */
+#treeKiller1 {
+  background-color: #355834;
+  width:150px;
+  height:150px;
+  margin-top: -585px;
+  margin-bottom: 500px;
+  position: relative;
+  opacity: 0;
+}
+#treeKiller2 {
+  background-color: #355834;
+  width:150px;
+  height:150px;
+  margin-top: -648px;
+  margin-bottom: 500px;
+  margin-left: 350px;
+  position: relative;
+  opacity: 0;
+}
+#treeKiller3 {
+  background-color: #355834;
+  width:150px;
+  height:150px;
+  margin-top: -302px;
+  margin-bottom: 150px;
+  position: relative;
+  opacity: 0;
+}
+#treeKiller4 {
+  background-color: #355834;
+  width:150px;
+  height:150px;
+  margin-top: -300px;
+  margin-bottom:150px;
+  margin-left: 350px;
+  position: relative;
+  opacity: 0;
+}
+#treeKiller5 {
+  background-color: #355834;
+  width:200px;
+  height:200px;
+  margin-top: -500px;
+  margin-bottom:300px;
+  margin-left: 125px;
+  position: relative;
+  opacity: 0;
+}
+
+/* The oncelers kill trees */
+.onceler1 {
+  animation: onceler 10s forwards;
+}
+.onceler2 {
+  animation: onceler 10s forwards;
+  animation-delay: 1s;
+}
+.onceler3 {
+  animation: onceler 10s forwards;
+  animation-delay: 2s;
+}
+.onceler4 {
+  animation: onceler 10s forwards;
+  animation-delay: 3s;
+}
+.onceler5 {
+  animation: onceler 10s forwards;
+  animation-delay: 4s;
+}
+
+/* Testimonial section */
+#testimonials {
+  background-color: #C7CEDB;
+  align-items: center;
+}
+.quote {
+  font-size: 20px;
+}
+#quoteSection {
+  margin-top: -50px;
+  padding: 0;
+}
+#quote1 {
+  opacity: 0;
+  animation: quoteCycle 20s forwards infinite;
+}
+#quote2 {
+  margin-top: -70px;
+  opacity: 0;
+  animation: quoteCycle 20s forwards infinite;
+  animation-delay: 5s;
+}
+#quote3 {
+  margin-top: -70px;
+  opacity: 0;
+  animation: quoteCycle 20s forwards infinite;
+  animation-delay: 10s;
+}
+#quote4 {
+  margin-top: -70px;
+  opacity: 0;
+  animation: quoteCycle 20s infinite;
+  animation-delay: 15s;
+}
+
+footer {
+  background-color: #14281D;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  color: white;
+}
+
+/* keyframes that slide in for products */
+@keyframes slideFromLeft {
+  from {left: -150%;}
+  to {left: 0px;}
+}
+@keyframes slideFromRight {
+  from {right: -150%;}
+  to {right: 0%;}
+}
+
+/* cycles through quotes */
+@keyframes quoteCycle {
+  0% {opacity: 0;}
+  5% {opacity: 1;}
+  20% {opacity: 1;}
+  25% {opacity: 0;}
+  100% {opacity: 0;}
+}
+@keyframes hide {
+  0% {opacity: 1;}
+  10% {opacity: 0;}
+  100% {opacity: 0;}
+}
+@keyframes onceler {
+  0% {opacity: 0;}
+  15% {opacity: 1;}
+  100% {opacity: 1;}
+}
