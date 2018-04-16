@@ -147,6 +147,20 @@ h2 {
 
 }
 
+.staff {
+  width: 400px;
+  height: auto;
+}
+
+figcaption {
+  color: white;
+  font-size: 20px;
+}
+
+figure {
+  display: inline-block;
+  text-align: center;
+}
 /* TreeKillers are the block that covers up the tree I'm killing */
 #treeKiller1 {
   background-color: #355834;
